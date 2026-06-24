@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skillrush Town"
+  short_description: "Track ClawHub skill rankings and publish a forkable radar"
+  default_prompt: "Use $skillrush-town to verify ClawHub Top100 ingestion, daily reports, history, and GitHub Pages publishing."
+policy:
+  allow_implicit_invocation: true

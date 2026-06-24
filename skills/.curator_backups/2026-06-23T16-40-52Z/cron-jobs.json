@@ -1,0 +1,778 @@
+{
+  "jobs": [
+    {
+      "id": "33d32c99dfb4",
+      "name": "\u6bcf\u65e5\u65b0\u95fb-\u65e9\u62a5",
+      "prompt": "[SILENT]",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "news_morning.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "display": "0 7 * * *"
+      },
+      "schedule_display": "0 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 35
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-23T03:25:18.006400+08:00",
+      "next_run_at": "2026-06-24T07:00:00+08:00",
+      "last_run_at": "2026-06-23T07:01:03.264096+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "920ad9fe397e",
+      "name": "\u6bcf\u65e5\u65b0\u95fb-\u665a\u62a5",
+      "prompt": "[SILENT]",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "news_evening.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "display": "0 22 * * *"
+      },
+      "schedule_display": "0 22 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 33
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-23T03:25:28.777215+08:00",
+      "next_run_at": "2026-06-24T22:00:00+08:00",
+      "last_run_at": "2026-06-23T22:06:28.479549+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "21b406978e7f",
+      "name": "skillrush-town \u6dd8\u91d1\u65e5\u62a5",
+      "prompt": "\u4f7f\u7528 skillrush-town skill \u8bfb\u53d6\u4eca\u5929\u7684 ClawHub \u6dd8\u91d1\u6570\u636e\u3002\u8bbf\u95ee https://learnprompt.github.io/skillrush-town/data/latest.json \u83b7\u53d6\u6700\u65b0\u5feb\u7167\u6570\u636e\uff0c\u63d0\u53d6\u4ee5\u4e0b\u5185\u5bb9\u751f\u6210\u4e2d\u6587\u65e5\u62a5\uff1a\n1. \u5feb\u7167\u65e5\u671f\u548c\u6293\u53d6\u65f6\u95f4\n2. Top10 \u5217\u8868\uff08\u6392\u540d\u3001\u540d\u79f0\u3001\u4f5c\u8005\u3001\u4e0b\u8f7d\u589e\u91cf\u3001\u661f\u6807\u589e\u91cf\uff09\n3. \u6f5c\u529b Skill \u5217\u8868\uff08\u65b0\u8fdb\u699c/\u589e\u901f/\u6392\u540d\u731b\u5347\u7684\uff09\n4. \u9650\u5236\u8bf4\u660e\n5. \u9644\u4e0a\u94fe\u63a5 https://learnprompt.github.io/skillrush-town/?date=<\u5feb\u7167\u65e5\u671f>\n\n\u7528\u5fae\u4fe1\u53cb\u597d\u7684\u683c\u5f0f\u8f93\u51fa\uff0c\u7b80\u6d01\u660e\u4e86\uff0c\u4e0d\u7528\u5e9f\u8bdd\u3002",
+      "skills": [
+        "skillrush-town"
+      ],
+      "skill": "skillrush-town",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * *",
+        "display": "0 10 * * *"
+      },
+      "schedule_display": "0 10 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 25
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-30T23:09:33.184058+08:00",
+      "next_run_at": "2026-06-24T10:00:00+08:00",
+      "last_run_at": "2026-06-23T10:09:10.928043+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "34d11f50e8c5",
+      "name": "wc26-daily-update",
+      "prompt": "Load the wc26-auto-updater skill and execute its full workflow (Steps 1-4). Report the update summary.",
+      "skills": [
+        "wc26-auto-updater"
+      ],
+      "skill": "wc26-auto-updater",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * *",
+        "display": "0 10 * * *"
+      },
+      "schedule_display": "0 10 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 11
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-23T10:11:23.431572+08:00",
+      "paused_reason": null,
+      "created_at": "2026-06-14T01:34:09.232630+08:00",
+      "next_run_at": "2026-06-24T10:00:00+08:00",
+      "last_run_at": "2026-06-23T10:10:05.210702+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: [Errno 32] Broken pipe",
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": "/home/ubuntu/projects/WC26-Main",
+      "fire_claim": null
+    },
+    {
+      "id": "447734efe6d6",
+      "name": "WC26 \u6bcf\u65e5\u8d5b\u679c\u81ea\u52a8\u66f4\u65b0",
+      "prompt": "Run the WC26 daily match result auto-updater, commit changes, and push to GitHub.\n\n1. cd /home/ubuntu/projects/world-cup-edge-lab\n2. Run: bash data/auto_update.sh\n3. If data/wc2026_matches.json changed, it will git commit + git push to origin master\n4. Report the result: how many matches were updated, any errors, the commit hash if pushed",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 23 * * *",
+        "display": "30 23 * * *"
+      },
+      "schedule_display": "30 23 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 9
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-23T10:15:34.007455+08:00",
+      "paused_reason": null,
+      "created_at": "2026-06-14T14:31:32.732580+08:00",
+      "next_run_at": "2026-06-23T23:30:00+08:00",
+      "last_run_at": "2026-06-22T23:33:30.248798+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": "/home/ubuntu/projects/WC26-Main",
+      "fire_claim": null
+    },
+    {
+      "id": "ef658c3c191a",
+      "name": "WC26 \u8d5b\u65f6\u8d5b\u679c\u66f4\u65b0 - 13:00",
+      "prompt": "Run the WC26 daily match result auto-updater, commit changes, and push to GitHub.\n\n1. cd /home/ubuntu/projects/world-cup-edge-lab\n2. Run: python3 data/update_results.py --days 1\n3. Check output: if matches were updated, git add -A && git commit -m \"data: \u8d5b\u65f6\u8d5b\u679c\u540c\u6b65 $(date +%Y-%m-%dT%H:%M)\" && git push origin master\n4. Report: how many matches were updated/played",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13 * * *",
+        "display": "0 13 * * *"
+      },
+      "schedule_display": "0 13 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 8
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-23T10:15:35.013242+08:00",
+      "paused_reason": null,
+      "created_at": "2026-06-15T09:49:07.476334+08:00",
+      "next_run_at": "2026-06-23T13:00:00+08:00",
+      "last_run_at": "2026-06-22T13:01:03.019378+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": "/home/ubuntu/projects/WC26-Main"
+    },
+    {
+      "id": "3667da6084c2",
+      "name": "WC26 \u8d5b\u65f6\u8d5b\u679c\u66f4\u65b0 - 16:00",
+      "prompt": "Run the WC26 daily match result auto-updater, commit changes, and push to GitHub.\n\n1. cd /home/ubuntu/projects/world-cup-edge-lab\n2. Run: python3 data/update_results.py --days 1\n3. Check output: if matches were updated, git add -A && git commit -m \"data: \u8d5b\u65f6\u8d5b\u679c\u540c\u6b65 $(date +%Y-%m-%dT%H:%M)\" && git push origin master\n4. Report: how many matches were updated/played",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 16 * * *",
+        "display": "0 16 * * *"
+      },
+      "schedule_display": "0 16 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 8
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-23T10:15:36.019851+08:00",
+      "paused_reason": null,
+      "created_at": "2026-06-15T09:49:08.479446+08:00",
+      "next_run_at": "2026-06-23T16:00:00+08:00",
+      "last_run_at": "2026-06-22T16:01:01.853687+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": "/home/ubuntu/projects/WC26-Main"
+    },
+    {
+      "id": "4a7ccc5a3a88",
+      "name": "WC26 \u8d5b\u65f6\u8d5b\u679c\u66f4\u65b0 - 19:00",
+      "prompt": "Run the WC26 daily match result auto-updater, commit changes, and push to GitHub.\n\n1. cd /home/ubuntu/projects/world-cup-edge-lab\n2. Run: python3 data/update_results.py --days 1\n3. Check output: if matches were updated, git add -A && git commit -m \"data: \u8d5b\u65f6\u8d5b\u679c\u540c\u6b65 $(date +%Y-%m-%dT%H:%M)\" && git push origin master\n4. Report: how many matches were updated/played",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 19 * * *",
+        "display": "0 19 * * *"
+      },
+      "schedule_display": "0 19 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 8
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-23T10:15:37.025952+08:00",
+      "paused_reason": null,
+      "created_at": "2026-06-15T09:49:09.482977+08:00",
+      "next_run_at": "2026-06-23T19:00:00+08:00",
+      "last_run_at": "2026-06-22T19:07:44.923166+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": "/home/ubuntu/projects/WC26-Main"
+    },
+    {
+      "id": "d917ee7b2e58",
+      "name": "WC26 \u8d5b\u65f6\u8d5b\u679c\u66f4\u65b0 - 22:00",
+      "prompt": "Run the WC26 daily match result auto-updater, commit changes, and push to GitHub.\n\n1. cd /home/ubuntu/projects/world-cup-edge-lab\n2. Run: python3 data/update_results.py --days 1\n3. Check output: if matches were updated, git add -A && git commit -m \"data: \u8d5b\u65f6\u8d5b\u679c\u540c\u6b65 $(date +%Y-%m-%dT%H:%M)\" && git push origin master\n4. Report: how many matches were updated/played",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 22 * * *",
+        "display": "0 22 * * *"
+      },
+      "schedule_display": "0 22 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 8
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-23T10:15:38.032459+08:00",
+      "paused_reason": null,
+      "created_at": "2026-06-15T09:49:10.486366+08:00",
+      "next_run_at": "2026-06-23T22:00:00+08:00",
+      "last_run_at": "2026-06-22T22:00:36.750114+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": "/home/ubuntu/projects/WC26-Main",
+      "fire_claim": null
+    },
+    {
+      "id": "95fa77ac2d92",
+      "name": "WC26Nami \u6bcf\u65e5\u6570\u636e\u66f4\u65b0",
+      "prompt": "\u6bcf\u65e5\u6570\u636e\u66f4\u65b0\u4efb\u52a1\u3002\u8fd0\u884c WC26Nami \u9879\u76ee\u7684\u6570\u636e\u540c\u6b65\uff1a\u5148\u5c1d\u8bd5\u7eb3\u7c73\u6570\u636eAPI\u62c9\u53d6\u771f\u5b9e\u8d5b\u679c\uff08python3 data/nami_sync.py\uff09\uff0c\u7136\u540e\u7528 update_results.py \u6a21\u62df\u4e0b\u4e00\u65e5\u8d5b\u679c\uff08python3 data/update_results.py\uff09\u3002\u6700\u540e\u5c06\u66f4\u65b0\u63a8\u9001\u5230GitHub\u3002\u540c\u65f6\u66f4\u65b0WC26\u9879\u76ee\uff08world-cup-edge-lab\uff09\u7684 wc2026_matches.json\uff1a\u590d\u5236 WC26Nami \u7684 data/wc2026_matches.json \u5230 world-cup-edge-lab/data/\u3002\u4e24\u4e2a\u9879\u76ee\u90fd git add, commit, push\u3002",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13 * * *",
+        "display": "0 13 * * *"
+      },
+      "schedule_display": "0 13 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 7
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-23T10:15:39.038461+08:00",
+      "paused_reason": null,
+      "created_at": "2026-06-15T17:41:08.255017+08:00",
+      "next_run_at": "2026-06-23T13:00:00+08:00",
+      "last_run_at": "2026-06-22T13:10:11.115919+08:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: [Errno 32] Broken pipe",
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": "/home/ubuntu/projects/WC26-Nami"
+    },
+    {
+      "id": "19eb825b7e4d",
+      "name": "WC26 FIFA \u8d5b\u679c\u81ea\u52a8\u540c\u6b65",
+      "prompt": "Run the FIFA auto-sync wrapper script at /home/ubuntu/projects/world-cup-edge-lab/data/fifa_sync_wrapper.sh. This script fetches official match results from api.fifa.com/api/v3, updates wc2026_matches.json, and if there are new results, it auto-commits and pushes to GitHub (which triggers Vercel deployment). Run it to completion and report back any new results found.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */2 * * *",
+        "display": "0 */2 * * *"
+      },
+      "schedule_display": "0 */2 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 80
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-06-23T10:15:40.044326+08:00",
+      "paused_reason": null,
+      "created_at": "2026-06-16T16:29:52.944705+08:00",
+      "next_run_at": "2026-06-23T12:00:00+08:00",
+      "last_run_at": "2026-06-23T10:08:25.717646+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "1c7670894d46",
+      "name": "Dashboard Status Generator",
+      "prompt": "Run the Hermes Dashboard status generator. It compiles memory, task history, cross-project issues, recent sessions, and error logs into a JSON cache for the dashboard frontend. Just run the script and report the output.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "dashboard-status.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */6 * * *",
+        "display": "0 */6 * * *"
+      },
+      "schedule_display": "0 */6 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 29
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T19:45:12.077234+08:00",
+      "next_run_at": "2026-06-24T06:00:00+08:00",
+      "last_run_at": "2026-06-24T00:06:29.574706+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "23f97a8191e4",
+      "name": "Conversation Export",
+      "prompt": "Run the conversation-export.py script to export all Hermes Agent conversations from state.db. This generates JSON and Markdown files for the dashboard to display. Just run the script and report the output.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "conversation-export.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */6 * * *",
+        "display": "0 */6 * * *"
+      },
+      "schedule_display": "0 */6 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 29
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T20:17:59.482903+08:00",
+      "next_run_at": "2026-06-24T06:00:00+08:00",
+      "last_run_at": "2026-06-24T00:03:29.576297+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal"
+      ],
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "b07f8c486e94",
+      "name": "memory-dream-mode",
+      "prompt": "Run Memory Dream Mode \u2014 \u8bb0\u5fc6\u7cfb\u7edf\u5065\u5eb7\u81ea\u68c0\u3002\n\n\u6267\u884c ~/.hermes/scripts/memory-dream-mode.py (python3)\uff0c\u68c0\u67e5\uff1a\n1. \u5f53\u524d\u8bb0\u5fc6\u6761\u76ee\u662f\u5426\u6709\u91cd\u590d\n2. \u662f\u5426\u63a5\u8fd1\u5bb9\u91cf\u4e0a\u9650\uff08>85%\u65f6\u9700\u538b\u7f29\uff09\n3. \u751f\u6210\u81ea\u68c0\u62a5\u544a\u5199\u5165 ~/.hermes/memory/dream_report.json\n\n\u8bfb\u53d6\u62a5\u544a\u6587\u4ef6\u5185\u5bb9\uff0c\u603b\u7ed3\u5173\u952e\u53d1\u73b0\uff0c\u7136\u540e\u4ec0\u4e48\u4e5f\u4e0d\u505a\uff08\u53ea\u662f\u8bb0\u5f55\u68c0\u67e5\u7ed3\u679c\uff09\u3002\u7528\u4e2d\u6587\u8f93\u51fa\u7b80\u8981\u62a5\u544a\u3002",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 0",
+        "display": "0 10 * * 0"
+      },
+      "schedule_display": "0 10 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T22:44:05.968996+08:00",
+      "next_run_at": "2026-06-28T10:00:00+08:00",
+      "last_run_at": "2026-06-21T10:01:47.838253+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "yuanbao",
+        "chat_id": "group:398919488",
+        "chat_name": "398919488",
+        "thread_id": "main"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "d1f07dc8f03c",
+      "name": "alwayson-health-check",
+      "prompt": "Run Hermes\u7cfb\u7edf\u5065\u5eb7\u5de1\u68c0 \u2014 Always-on Executor\u3002\n\n\u6267\u884c ~/.hermes/scripts/alwayson-executor.py (python3)\uff0c\u68c0\u67e5\uff1a\n1. \u78c1\u76d8\u4f7f\u7528\u7387\uff08>90%\u62a5\u8b66\uff09\n2. \u8bb0\u5fc6\u76ee\u5f55\u5b8c\u6574\u6027\n3. Hermes/Aesculap \u670d\u52a1\u72b6\u6001\n\n\u8bfb\u53d6\u62a5\u544a\u6587\u4ef6 ~/.hermes/memory/health_report.json\uff0c\u603b\u7ed3\u5173\u952e\u53d1\u73b0\u3002\u4ec5\u8bb0\u5f55\uff0c\u4e0d\u91c7\u53d6\u884c\u52a8\u3002\u7528\u4e2d\u6587\u8f93\u51fa\u3002",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 2 * * *",
+        "display": "0 2 * * *"
+      },
+      "schedule_display": "0 2 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 6
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T22:44:06.972294+08:00",
+      "next_run_at": "2026-06-24T02:00:00+08:00",
+      "last_run_at": "2026-06-23T02:07:11.835108+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "yuanbao",
+        "chat_id": "group:398919488",
+        "chat_name": "398919488",
+        "thread_id": "main"
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "d6bf76ebdc63",
+      "name": "30\u5929\u81ea\u6211\u8a2a\u8ac7",
+      "prompt": "30\u5929\u81ea\u6211\u8bbf\u8c08\u8ba1\u5212\uff0c\u6bcf\u5929\u665a\u4e0a\u6267\u884c\u4e00\u6b21\u3002\n\n\u8bf7\u626e\u6f14\u4e00\u4f4d\u8d44\u6df1\u7684\u5b58\u5728\u4e3b\u4e49\u5fc3\u7406\u54a8\u8be2\u5e08\u3002\u6839\u636e\u4e0b\u9762\u7684\u5929\u6570\u9636\u6bb5\uff0c\u95ee3\u4e2a\u5177\u4f53\u7684\u95ee\u9898\u3002\n\n\u89c4\u5219\uff1a\n- \u95ee\u9898\u8981\u5177\u4f53\uff0c\u4e0d\u8981\u62bd\u8c61\u98d8\u5ffd\u3002\u95ee\"\u4eca\u5929\u6709\u6ca1\u6709\u4e00\u4ef6\u4e8b\u8ba9\u4f60\u89c9\u5f97\u70e6\u8e81\"\uff0c\u4e0d\u8981\u95ee\"\u4f60\u5bf9\u60c5\u7eea\u6709\u4ec0\u4e48\u89c9\u5bdf\"\n- \u95ee\u9898\u7531\u6d45\u5165\u6df1\u9012\u8fdb\uff0c\u7b2c\u4e00\u4e2a\u6700\u8f7b\uff0c\u7b2c\u4e09\u4e2a\u6700\u6df1\n- \u53ea\u8bf4\u95ee\u9898\uff0c\u4e0d\u8981\u5b89\u6170\uff0c\u4e0d\u8981\u7ed9\u5efa\u8bae\uff0c\u4e0d\u8981\u8bc4\u4ef7\n- \u7528\u7b80\u4f53\u4e2d\u6587\uff0c\u8bed\u8a00\u81ea\u7136\n\n\u5f53\u524d\u662f\u7b2c DAY \u5929\uff0c\u9636\u6bb5\u300cTHEME\u300d\u2014 DESC\u3002\u98ce\u683c\u8981\u6c42\uff1aSTYLE\u3002\n\n\u5728\u95ee\u5b8c3\u4e2a\u95ee\u9898\u4e4b\u540e\uff0c\u7528\u4ee5\u4e0b\u683c\u5f0f\u8bb0\u5f55\u5230\u62a5\u544a\u6587\u4ef6\uff1a\n\n1. \u5148\u5199\u4e00\u6bb5\u4eca\u5929\u7684\u95ee\u9898\u548c\u6211\u7684\u9884\u671f\u5206\u6790\uff08\u4f60\u4ece\u95ee\u9898\u4e2d\u5e0c\u671b\u4e86\u89e3\u4ec0\u4e48\uff09\n2. \u7b49\u7528\u6237\u56de\u7b54\u540e\uff08\u4e0b\u4e00\u6b21\u6267\u884c\u65f6\u4f1a\u8bfb\u53d6\u62a5\u544a\u66f4\u65b0\uff09\n\n\u62a5\u544a\u8def\u5f84\uff1a~/projects/self-interview/report.md\n\n\u5982\u679c\u62a5\u544a\u6587\u4ef6\u5df2\u5b58\u5728\uff0c\u5148\u8bfb\u53d6\u4e4b\u524d\u7684\u62a5\u544a\u4e86\u89e3\u8fdb\u5ea6\u548c\u4e4b\u524d\u7684\u56de\u7b54\uff0c\u518d\u95ee\u4eca\u5929\u7684\u95ee\u9898\u3002\n\u5982\u679c report.md \u7684\u7d2f\u8ba1\u5206\u6790\u4e2d\u6709\u63d0\u5230\u4eca\u5929\u9700\u8981\u6ce8\u610f\u7684\u65b9\u5411\uff0c\u628a\u4eca\u5929\u7684\u95ee\u9898\u5f80\u90a3\u4e2a\u65b9\u5411\u8c03\u6574\u3002\n\n\u6700\u540e\u66f4\u65b0\u62a5\u544a\u65f6\uff0c\u6bcf\u5929\u8ffd\u52a0\u4ee5\u4e0b\u5185\u5bb9\uff1a\n- \u4eca\u5929\u7684\u65e5\u671f\u548c\u7b2c N \u5929\n- \u4eca\u5929\u95ee\u4e86\u54ea3\u4e2a\u95ee\u9898\n- \u7528\u6237\u7684\u56de\u7b54\u6458\u8981\n- \u4eca\u5929\u7684\u5c0f\u5206\u6790\uff08\u4ece\u56de\u7b54\u4e2d\u770b\u5230\u4e86\u4ec0\u4e48\u6a21\u5f0f/\u4fe1\u53f7\uff09\n- \u622a\u6b62\u4eca\u5929\u7684\u6574\u4f53\u5206\u6790\uff08\u7d2f\u8ba1\u8d8b\u52bf\u3001\u91cd\u590d\u51fa\u73b0\u7684\u4e3b\u9898\u3001\u53d8\u5316\u65b9\u5411\uff09",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "interview-tracker.py",
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21 * * *",
+        "display": "0 21 * * *"
+      },
+      "schedule_display": "0 21 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 8
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T22:57:17.621477+08:00",
+      "next_run_at": "2026-06-24T21:00:00+08:00",
+      "last_run_at": "2026-06-23T21:02:14.465365+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    },
+    {
+      "id": "d664e9153977",
+      "name": "VP \u7cfb\u5217\u4ed3\u5e93\u53d8\u66f4\u76d1\u63a7",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "monitor-vp-codex.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 120,
+        "display": "every 120m"
+      },
+      "schedule_display": "every 120m",
+      "repeat": {
+        "times": null,
+        "completed": 11
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-23T00:43:12.753563+08:00",
+      "next_run_at": "2026-06-24T00:54:08.470321+08:00",
+      "last_run_at": "2026-06-23T22:54:08.470321+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "weixin",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "hooks": null,
+      "fire_claim": null
+    },
+    {
+      "id": "96c448b7cfbb",
+      "name": "Claude Code \u72b6\u6001\u76d1\u63a7",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "check-claude-status.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/5 * * * *",
+        "display": "*/5 * * * *"
+      },
+      "schedule_display": "*/5 * * * *",
+      "repeat": {
+        "times": null,
+        "completed": 25
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-23T22:38:09.548543+08:00",
+      "next_run_at": "2026-06-24T00:45:00+08:00",
+      "last_run_at": "2026-06-24T00:40:02.170668+08:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "weixin",
+        "chat_id": "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat",
+        "chat_name": null,
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "hooks": null,
+      "fire_claim": null
+    }
+  ],
+  "updated_at": "2026-06-24T00:40:02.171246+08:00"
+}

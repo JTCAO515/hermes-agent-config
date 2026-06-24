@@ -1,0 +1,88 @@
+{
+  "log": {"loglevel": "warning"},
+  "inbounds": [
+    {
+      "tag": "socks-in",
+      "protocol": "socks",
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "settings": {"auth": "noaccount", "udp": true}
+    },
+    {
+      "tag": "http-in",
+      "protocol": "http",
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "settings": {}
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [{
+          "address": "__HOST__",
+          "port": __PORT__,
+          "users": [{
+            "id": "__UUID__",
+            "encryption": "none",
+            "flow": "__FLOW__"
+          }]
+        }]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "__SECURITY__",
+        "__TLS_OR_REALITY__": {
+          "serverName": "__SERVER_NAME__",
+          "fingerprint": "chrome",
+          "__REALITY_ONLY__": "__REMOVE_IF_TLS__"
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "geosite:cn",
+          "domain:baidu.com",
+          "domain:qq.com",
+          "domain:weixin.qq.com",
+          "domain:wechat.com",
+          "domain:taobao.com",
+          "domain:alipay.com",
+          "domain:jd.com",
+          "domain:douyin.com",
+          "domain:bilibili.com",
+          "domain:163.com",
+          "domain:sina.com.cn",
+          "domain:zhihu.com",
+          "domain:xiaohongshu.com"
+        ]
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": ["geoip:cn", "geoip:private"]
+      },
+      {
+        "type": "field",
+        "outboundTag": "block",
+        "domain": ["geosite:category-ads-all"]
+      }
+    ]
+  }
+}
