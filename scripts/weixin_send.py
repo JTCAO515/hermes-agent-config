@@ -5,8 +5,8 @@ import json, struct, secrets, sys, requests
 
 TOKEN = "YOUR_ILINK_BOT_TOKEN"  # Format: "account@im.bot:secret"
 BASE = "https://ilinkai.weixin.qq.com"
-ACCOUNT = "8b6a2a6fdcd9@im.bot"
-TO_USER = "o9cq80_w8shOXU7ihhmQ96pnNwNQ@im.wechat"
+ACCOUNT = "YOUR_BOT_ACCOUNT@im.bot"
+TO_USER = "YOUR_RECIPIENT@im.wechat"
 
 def _uin():
     return secrets.token_urlsafe(8)
