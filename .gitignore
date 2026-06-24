@@ -1,0 +1,33 @@
+# Sensitive files - NEVER commit
+.env
+*.key
+*.pem
+vault/
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Hermes Agent - large files, install fresh
+hermes-agent/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+cache/
+*.log

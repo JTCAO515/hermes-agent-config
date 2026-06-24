@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-06-21T10:00:41.463009",
+  "status": "completed",
+  "metrics": {
+    "memory": {
+      "total_entries": 26,
+      "total_chars": 4066,
+      "char_limit": 4400,
+      "usage_pct": 92.4,
+      "over_capacity": true
+    },
+    "user_profile": {
+      "total_entries": 16,
+      "total_chars": 2742,
+      "char_limit": 2750,
+      "usage_pct": 99.7,
+      "over_capacity": true
+    },
+    "duplicates": {
+      "memory_dup_groups": 0,
+      "user_dup_groups": 0
+    },
+    "stale_task_progress": 1,
+    "consistency_ok": true
+  },
+  "recommendations": [
+    "MEMORY.md 4066/4400 (92.4%) — 超过85%容量门限，建议压缩",
+    "USER.md 2742/2750 (99.7%) — 超过85%容量门限，建议压缩",
+    "1 条任务进度记忆建议移除（不符合SOUL.md记忆规范）"
+  ]
+}

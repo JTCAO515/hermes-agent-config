@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-06-23T02:07:04.212053",
+  "disk": {
+    "total_gb": 42.2,
+    "used_pct": 91.6,
+    "healthy": false
+  },
+  "memory_dir": {
+    "exists": true,
+    "file_count": 2,
+    "files": [
+      "health_report.json",
+      "dream_report.json"
+    ]
+  },
+  "services": {
+    "hermes-agent": {
+      "status": "ok",
+      "output": "Hermes Agent v0.17.0 (2026.6.19) · upstream 708ce3d3\nProject: /home/ubuntu/.hermes/hermes-agent\nPyth"
+    },
+    "aesculap": {
+      "status": "ok",
+      "output": "active"
+    }
+  }
+}
